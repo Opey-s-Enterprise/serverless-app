@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"   # Specify where your functions are located
+  publish = "public"        # Specify the directory to publish
+
+[[redirects]]
+  from = "/api/*"          # Redirect API calls to functions
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
