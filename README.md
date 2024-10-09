@@ -1,1 +1,3 @@
-# serverless-app
+# serverless-app 
+
+hosted on netlify
