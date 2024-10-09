@@ -1,0 +1,8 @@
+{
+  "name": "my-ecommerce-store",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build process needed'"
+  },
+  "dependencies": {}
+}
